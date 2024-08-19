@@ -1,0 +1,9 @@
+whisper
+moviepy
+torch
+langchain
+sentence-transformers
+numpy
+faiss-cpu
+langchain-google-genai
+
