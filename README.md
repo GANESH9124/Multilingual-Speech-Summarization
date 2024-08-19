@@ -42,8 +42,8 @@ To set up this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/multilingual-speech-recognition-rag.git
-   cd multilingual-speech-recognition-rag
+   git clone https://github.com/GANESH9124/multilingual-speech-summarization.git
+   cd multilingual-speech-summarization-rag
 2. **Create a virtual environment**:
    ```bash
    python3 -m venv venv
