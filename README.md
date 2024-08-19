@@ -44,3 +44,70 @@ To set up this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/multilingual-speech-recognition-rag.git
    cd multilingual-speech-recognition-rag
+2. **Create a virtual environment**:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+3. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+4. **Setup FAISS**:
+   Ensure FAISS is installed and configured to work with your system. Follow the instructions provided in the          FAISS documentation.
+
+
+## Usage
+Follow the code given in the final_model.ipynb file.
+
+
+
+## Model Architecture
+
+
+### Whisper Large V3
+
+
+1.**Purpose**:
+   Transcription of multilingual speech.
+
+2.**Features**:
+   High accuracy across multiple languages.
+
+
+### RAG (Retrieval-Augmented Generation)
+
+1.**Purpose**:
+   Generates responses by retrieving relevant content from the vector database.
+
+2.**Features**:
+   Combines the strengths of retrieval-based and generative models.
+
+
+### FAISS Vector Database
+
+1.**Purpose**:
+   Stores transcriptions and summaries for efficient retrieval.
+
+2.**Features**:
+   Scalable and fast similarity search.
+
+
+## Contributing 
+
+We welcome contributions to improve the project. Please follow these steps:
+
+
+Fork the repository.
+
+Create a new branch (git checkout -b feature-branch).
+
+Make your changes and commit them (git commit -m 'Add new feature').
+
+Push to the branch (git push origin feature-branch).
+
+Open a pull request.
+
+
+
+## License
+
+This project is licensed under Apache License 2.0. See the `LICENSE` file for more details.
